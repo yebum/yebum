@@ -1,0 +1,50 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yebum — Creative Developer</title>
+  <desc id="desc">A dark blue profile banner with a grid, orbit lines, and the words Yebum and Creative Developer.</desc>
+  <defs>
+    <linearGradient id="background" x1="80" y1="0" x2="1120" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B14"/>
+      <stop offset="0.55" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#101B34"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="260" y1="80" x2="940" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#84C5FF"/>
+      <stop offset="0.48" stop-color="#5AABFF"/>
+      <stop offset="1" stop-color="#756CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(947 115) rotate(145) scale(344 217)">
+      <stop stop-color="#5AABFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#5AABFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#A9CBFF" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="blur" x="-80" y="-80" width="1360" height="480" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <ellipse cx="958" cy="116" rx="300" ry="182" fill="url(#glow)" filter="url(#blur)"/>
+
+  <g opacity="0.9">
+    <circle cx="1008" cy="158" r="94" stroke="#5AABFF" stroke-opacity="0.25"/>
+    <circle cx="1008" cy="158" r="132" stroke="#84C5FF" stroke-opacity="0.12"/>
+    <path d="M817 232C891 145 987 101 1146 96" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="817" cy="232" r="5" fill="#84C5FF"/>
+    <circle cx="1008" cy="158" r="8" fill="#5AABFF"/>
+    <circle cx="1146" cy="96" r="4" fill="#756CFF"/>
+    <path d="M875 61L887 73M887 61L875 73" stroke="#84C5FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1095 249L1107 261M1107 249L1095 261" stroke="#756CFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(82 70)">
+    <rect y="1" width="54" height="4" rx="2" fill="url(#accent)"/>
+    <text x="0" y="92" fill="#F3F7FF" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-2">YEBUM</text>
+    <text x="3" y="137" fill="#84C5FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="6">CREATIVE DEVELOPER</text>
+    <text x="3" y="181" fill="#9CAAC2" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="1">UNITY · VR · INTERACTIVE WEB</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="23" stroke="#A9CBFF" stroke-opacity="0.12" stroke-width="2"/>
+</svg>
